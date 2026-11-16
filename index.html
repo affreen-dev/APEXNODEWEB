@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>APEXNODE | Website Development</title>
-  <meta name="description" content="APEXNODE creates professional websites for businesses and brands.">
+  <meta name="description" content="APEXNODE creates modern websites for businesses and brands.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
-  <a href="index.html" class="brand">
+  <a href="./" class="brand">
     <img src="assets/logo.png.jpeg" alt="APEXNODE Logo" class="logo">
     <span>APEX<span class="red">NODE</span></span>
   </a>
 
-  <nav>
+  <nav id="mainNav">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#services">Services</a>
@@ -24,115 +24,108 @@
   </nav>
 </header>
 
-<section class="hero" id="home">
-  <div class="hero-content">
-    <p class="eyebrow">WE BUILD DIGITAL EXPERIENCES</p>
-    <h1>We Build Websites<br>That Build <span>Businesses.</span></h1>
-    <p>Creative, modern and professional websites designed to grow your brand and business.</p>
-    <a href="#projects" class="btn">Explore Our Work</a>
-  </div>
-</section>
+<main id="homePage">
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">WE BUILD DIGITAL EXPERIENCES</p>
+      <h1>We Build Websites<br>That Build <span>Businesses.</span></h1>
+      <p>Creative, modern and professional websites designed to grow your brand and business.</p>
+      <a href="#projects" class="btn">Explore Our Work</a>
+    </div>
+  </section>
 
-<section class="section" id="about">
-  <p class="eyebrow">WHO WE ARE</p>
-  <h2>Turning Ideas Into <span class="red">Digital Reality</span></h2>
-  <p class="description">APEXNODE helps businesses establish a strong online presence with creative website design and development.</p>
-</section>
+  <section class="section" id="about">
+    <p class="eyebrow">WHO WE ARE</p>
+    <h2>Turning Ideas Into <span class="red">Digital Reality</span></h2>
+    <p class="description">
+      APEXNODE helps businesses build a strong online presence through
+      creative website design and development.
+    </p>
+  </section>
 
-<section class="section dark-section" id="services">
-  <p class="eyebrow">WHAT WE DO</p>
-  <h2>Our Services</h2>
-  <div class="grid">
-    <article class="service-card">
-      <h3>Website Design</h3>
-      <p>Beautiful and modern website experiences.</p>
-    </article>
-    <article class="service-card">
-      <h3>Website Development</h3>
-      <p>Responsive websites built for your business.</p>
-    </article>
-    <article class="service-card">
-      <h3>E-commerce Websites</h3>
-      <p>Online stores that help you sell products.</p>
-    </article>
-  </div>
-</section>
+  <section class="section dark-section" id="services">
+    <p class="eyebrow">WHAT WE DO</p>
+    <h2>Our Services</h2>
+    <div class="grid">
+      <article class="service-card">
+        <h3>Website Design</h3>
+        <p>Beautiful and modern website experiences.</p>
+      </article>
+      <article class="service-card">
+        <h3>Website Development</h3>
+        <p>Responsive websites built for your business.</p>
+      </article>
+      <article class="service-card">
+        <h3>E-commerce Websites</h3>
+        <p>Online stores to help your business grow.</p>
+      </article>
+    </div>
+  </section>
 
-<section class="section" id="projects">
-  <p class="eyebrow">OUR PORTFOLIO</p>
-  <h2>Explore Our <span class="red">Demo Websites</span></h2>
-  <p class="description">Choose a category and explore our sample website designs.</p>
+  <section class="section" id="projects">
+    <p class="eyebrow">OUR PORTFOLIO</p>
+    <h2>Explore Our <span class="red">Demo Websites</span></h2>
+    <p class="description">Choose a category to explore a sample website.</p>
+    <div class="project-grid" id="projectGrid"></div>
+  </section>
 
-  <div class="project-grid">
-    <a class="project-card" href="demos/corporate.html">
-      <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900" alt="Corporate office">
-      <div><h3>Corporate</h3><p>Professional business website</p><span>View Demo ↗</span></div>
+  <section class="section dark-section">
+    <p class="eyebrow">OUR PROCESS</p>
+    <h2>Simple. Creative. Effective.</h2>
+    <div class="grid">
+      <article class="service-card">
+        <h3>01. Discover</h3>
+        <p>We understand your business and goals.</p>
+      </article>
+      <article class="service-card">
+        <h3>02. Design</h3>
+        <p>We create a design that fits your brand.</p>
+      </article>
+      <article class="service-card">
+        <h3>03. Develop</h3>
+        <p>We build and launch your website.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <p class="eyebrow">LET'S WORK TOGETHER</p>
+    <h2>Ready to Build Your <span class="red">Website?</span></h2>
+    <p>Tell us about your project. Let's create something amazing.</p>
+    <a class="btn" href="https://wa.me/918248717028" target="_blank" rel="noopener">
+      Contact on WhatsApp
     </a>
-
-    <a class="project-card" href="demos/ecommerce.html">
-      <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=900" alt="Fashion store">
-      <div><h3>E-commerce</h3><p>Modern online shopping store</p><span>View Demo ↗</span></div>
+    <a class="email-link" href="mailto:affreen.r.dev456@gmail.com">
+      affreen.r.dev456@gmail.com
     </a>
+  </section>
+</main>
 
-    <a class="project-card" href="demos/restaurant.html">
-      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900" alt="Restaurant">
-      <div><h3>Restaurant</h3><p>Food and dining website</p><span>View Demo ↗</span></div>
+<main id="demoPage" class="demo-page" hidden>
+  <section class="demo-hero" id="demoHero">
+    <div class="demo-hero-content">
+      <p class="demo-eyebrow" id="demoEyebrow"></p>
+      <h1 id="demoTitle"></h1>
+      <p id="demoIntro"></p>
+      <a href="#demoContent" class="demo-button" id="demoButton">Explore More</a>
+    </div>
+  </section>
+
+  <section class="demo-content" id="demoContent">
+    <p class="demo-eyebrow" id="demoLabel"></p>
+    <h2 id="demoSubheading"></h2>
+    <p id="demoDescription"></p>
+    <div class="demo-card-grid" id="demoCards"></div>
+  </section>
+
+  <section class="demo-contact">
+    <h2>Let's Connect</h2>
+    <p>Interested in a website like this?</p>
+    <a href="https://wa.me/918248717028" target="_blank" rel="noopener" class="demo-button">
+      Contact APEXNODE
     </a>
-
-    <a class="project-card" href="demos/portfolio.html">
-      <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=900" alt="Creative workspace">
-      <div><h3>Portfolio</h3><p>Personal creative portfolio</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/clinic.html">
-      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900" alt="Medical clinic">
-      <div><h3>Clinic</h3><p>Healthcare website design</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/hotel.html">
-      <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=900" alt="Luxury hotel">
-      <div><h3>Hotel</h3><p>Luxury hotel website</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/education.html">
-      <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=900" alt="University campus">
-      <div><h3>Education</h3><p>Modern education website</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/salon.html">
-      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900" alt="Beauty salon">
-      <div><h3>Salon</h3><p>Beauty and salon website</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/construction.html">
-      <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900" alt="Modern architecture">
-      <div><h3>Construction</h3><p>Architecture and construction</p><span>View Demo ↗</span></div>
-    </a>
-
-    <a class="project-card" href="demos/photography.html">
-      <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=900" alt="Photography camera">
-      <div><h3>Photography</h3><p>Creative photography gallery</p><span>View Demo ↗</span></div>
-    </a>
-  </div>
-</section>
-
-<section class="section dark-section">
-  <p class="eyebrow">OUR PROCESS</p>
-  <h2>Simple. Creative. Effective.</h2>
-  <div class="grid">
-    <article class="service-card"><h3>01. Discover</h3><p>We understand your business and goals.</p></article>
-    <article class="service-card"><h3>02. Design</h3><p>We create a design that fits your brand.</p></article>
-    <article class="service-card"><h3>03. Develop</h3><p>We build and launch your website.</p></article>
-  </div>
-</section>
-
-<section class="section contact" id="contact">
-  <p class="eyebrow">LET'S WORK TOGETHER</p>
-  <h2>Ready to Build Your <span class="red">Website?</span></h2>
-  <p>Tell us about your project. Let's create something amazing.</p>
-  <a class="btn" href="https://wa.me/918248717028" target="_blank">Contact on WhatsApp</a>
-  <a class="email-link" href="mailto:affreen.r.dev456@gmail.com">affreen.r.dev456@gmail.com</a>
-</section>
+  </section>
+</main>
 
 <footer>
   <p>© 2026 APEXNODE. All Rights Reserved.</p>

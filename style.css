@@ -7,7 +7,7 @@ a{text-decoration:none;color:inherit}
 .red{color:#ff304f}
 .header{height:82px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#0d0e13;border-bottom:1px solid #252630;position:sticky;top:0;z-index:100}
 .brand{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:800;letter-spacing:1px}
-.brand img{width:49px;height:49px;object-fit:contain;border-radius:50%;background:#fff}
+.brand img{width:52px;height:52px;min-width:52px;object-fit:cover;border-radius:50%;object-position:center;padding:3px;display:block;overflow:hiddenbackground:#fffff;}
 nav{display:flex;gap:30px}
 nav a{font-size:13px;color:#ccc;transition:.3s}
 nav a:hover{color:#ff304f}

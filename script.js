@@ -1,38 +1,20 @@
-
 const menuBtn = document.getElementById("menuBtn");
-const navLinks = document.getElementById("navLinks");
+const nav = document.getElementById("nav");
 
-menuBtn.addEventListener("click", function() {
-  navLinks.classList.toggle("active");
-});
-
-document.querySelectorAll(".nav-links a").forEach(link => {
-  link.addEventListener("click", function() {
-    navLinks.classList.remove("active");
+if (menuBtn && nav) {
+  menuBtn.addEventListener("click", () => {
+    nav.classList.toggle("open");
   });
-});
 
-const contactForm = document.getElementById("contactForm");
+  nav.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      nav.classList.remove("open");
+    });
+  });
+}
 
-contactForm.addEventListener("submit", function(event) {
-  event.preventDefault();
+const year = document.getElementById("year");
 
-  if (!contactForm.reportValidity()) return;
-
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const service = document.getElementById("service").value;
-  const message = document.getElementById("message").value;
-
-  const subject = encodeURIComponent("APEXNODE Website Enquiry");
-  const body = encodeURIComponent(
-    "Name: " + name +
-    "\nEmail: " + email +
-    "\nService: " + service +
-    "\nMessage: " + message
-  );
-
-  window.location.href =
-    "mailto:affreen.r.dev456@gmail.com?subject=" +
-    subject + "&body=" + body;
-});
+if (year) {
+  year.textContent = new Date().getFullYear();
+}

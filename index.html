@@ -1,184 +1,164 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="APEXNODE - Professional website design and development services.">
 <title>APEXNODE | Digital Experiences</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="header" id="header">
-  <a href="#" class="brand" id="brandHome">
-    <img src="assets/logo.png.jpeg" class="logo" alt="APEXNODE Logo">
-    <span>APEX<span class="red">NODE</span></span>
-  </a>
+<header>
+  <nav class="navbar">
+    <a href="#home" class="brand">
+      <img src="assets/logo.png" alt="APEXNODE Logo">
+      <span>APEX<span class="red">NODE</span></span>
+    </a>
 
-  <button class="menu-toggle" id="menuToggle">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-  <nav id="nav">
-    <a href="#home" class="home-link">Home</a>
-    <a href="#about" class="home-link">About</a>
-    <a href="#services" class="home-link">Services</a>
-    <a href="#projects" class="home-link">Demos</a>
-    <a href="#contact" class="home-link">Contact</a>
+    <a href="#contact" class="nav-btn">Let's Talk ↗</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
   </nav>
-
-  <a href="#contact" class="header-btn home-link">Let's Talk ↗</a>
 </header>
-
-<!-- HOME PAGE -->
-<main id="homePage">
 
 <section class="hero" id="home">
   <div class="hero-content">
-    <span class="eyebrow">✦ CREATIVE WEB DEVELOPMENT STUDIO</span>
-    <h1>We Build Digital<br>Experiences That<br><span>Move Businesses.</span></h1>
-    <p>Modern websites. Powerful design. Real business impact. We turn your ideas into impressive digital experiences.</p>
-    <div class="hero-buttons">
-      <a href="#projects" class="primary-btn">Explore Our Work ↗</a>
-      <a href="#contact" class="outline-btn">Start a Project</a>
-    </div>
-    <div class="hero-caption">DESIGN • DEVELOPMENT • DIGITAL GROWTH</div>
+    <p class="tag">INDEPENDENT DIGITAL STUDIO</p>
+    <h1>We Build <span>Digital</span><br>Experiences.</h1>
+    <p class="intro">
+      We create modern, responsive and powerful websites
+      that help businesses grow and stand out online.
+    </p>
+    <a href="#contact" class="primary-btn">Start Your Project ↗</a>
+    <a href="#work" class="secondary-btn">Explore Our Work</a>
   </div>
 
   <div class="hero-image">
-    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Modern workspace">
-    <div class="image-card">
-      <span>✦</span>
-      <div><strong>Ideas into reality</strong><small>Built with purpose.</small></div>
-    </div>
+    <img src="assets/logo.png" alt="APEXNODE">
+    <div class="circle-text">DESIGN • DEVELOP • CREATE •</div>
   </div>
 </section>
 
-<section class="stats">
-  <div><strong>01</strong><span>Creative thinking</span></div>
-  <div><strong>02</strong><span>Modern design</span></div>
-  <div><strong>03</strong><span>Responsive websites</span></div>
-  <div><strong>∞</strong><span>Possibilities</span></div>
+<section class="about section" id="about">
+  <p class="tag">01 / ABOUT US</p>
+  <h2>Ideas Into <span>Reality.</span></h2>
+  <p>
+    APEXNODE is a growing digital studio focused on creating
+    beautiful, professional and user-friendly websites.
+    We help businesses establish a powerful digital presence.
+  </p>
 </section>
 
-<section class="section" id="about">
-  <span class="section-tag">01 — ABOUT APEXNODE</span>
-  <div class="about-grid">
-    <h2>Not just websites.<br><span>Digital identities.</span></h2>
-    <div>
-      <p>APEXNODE helps businesses build a strong digital presence through modern design and thoughtful web experiences.</p>
-      <p>From business websites to creative portfolios, we focus on professional designs that work beautifully across devices.</p>
-      <a href="#contact" class="text-link">Let's create something great ↗</a>
-    </div>
-  </div>
-  <div class="wide-image">
-    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1500&q=85" alt="Creative team">
-  </div>
-</section>
-
-<section class="section services-section" id="services">
-  <span class="section-tag">02 — OUR SERVICES</span>
-  <div class="section-heading">
-    <h2>Services built for<br><span>your next move.</span></h2>
-    <p>Everything you need to make your brand stand out online.</p>
-  </div>
+<section class="section services" id="services">
+  <p class="tag">02 / OUR SERVICES</p>
+  <h2>What We <span>Do.</span></h2>
 
   <div class="service-grid">
-    <article class="service-card"><span>01 / ◈</span><h3>Business Websites</h3><p>Professional websites that introduce your business and build customer trust.</p></article>
-    <article class="service-card"><span>02 / ▧</span><h3>E-commerce Design</h3><p>Beautiful online storefronts for products, brands and shopping experiences.</p></article>
-    <article class="service-card"><span>03 / ✳</span><h3>Portfolio Websites</h3><p>Showcase your work, skills and story with a memorable personal website.</p></article>
-    <article class="service-card"><span>04 / ⌘</span><h3>Landing Pages</h3><p>Engaging pages designed to present an offer or promote a service.</p></article>
-  </div>
-</section>
-
-<section class="section" id="projects">
-  <span class="section-tag">03 — OUR DEMO COLLECTION</span>
-  <div class="section-heading">
-    <h2>Explore our demo<br><span>websites.</span></h2>
-    <p>Choose a design and explore a sample website. Each demo has its own style and layout.</p>
-  </div>
-
-  <div class="project-grid" id="projectGrid"></div>
-</section>
-
-<section class="process-section">
-  <span class="section-tag">04 — OUR PROCESS</span>
-  <h2>Simple process.<br><span>Strong results.</span></h2>
-  <div class="process-grid">
-    <div><b>01</b><h3>Discover</h3><p>We understand your business and requirements.</p></div>
-    <div><b>02</b><h3>Design</h3><p>We plan a visual direction for your brand.</p></div>
-    <div><b>03</b><h3>Develop</h3><p>We build a responsive website experience.</p></div>
-    <div><b>04</b><h3>Deliver</h3><p>We review the work and prepare it for launch.</p></div>
-  </div>
-</section>
-
-<section class="section contact-section" id="contact">
-  <span class="section-tag">05 — CONTACT US</span>
-  <div class="contact-grid">
-    <div>
-      <h2>Have a project<br>in <span>mind?</span></h2>
-      <p class="contact-text">Tell us about your idea. Let's create a website that helps your business move forward.</p>
-      <div class="contact-details">
-        <a href="mailto:affreen.r.dev456@gmail.com"><small>EMAIL ADDRESS</small>affreen.r.dev456@gmail.com ↗</a>
-        <a href="https://wa.me/918248717028" target="_blank" rel="noopener"><small>WHATSAPP</small>+91 82487 17028 ↗</a>
-      </div>
+    <div class="service-card">
+      <h3>01</h3>
+      <h2>Website Design</h2>
+      <p>Creative and modern website designs for your brand.</p>
     </div>
 
-    <form id="enquiryForm">
-      <label for="name">Your Name</label>
-      <input id="name" type="text" placeholder="Enter your name" required>
+    <div class="service-card">
+      <h3>02</h3>
+      <h2>Web Development</h2>
+      <p>Responsive websites built for all devices.</p>
+    </div>
 
-      <label for="email">Email Address</label>
-      <input id="email" type="email" placeholder="Enter your email" required>
+    <div class="service-card">
+      <h3>03</h3>
+      <h2>Landing Pages</h2>
+      <p>Professional landing pages that attract customers.</p>
+    </div>
 
-      <label for="service">Select Service</label>
-      <select id="service" required>
-        <option value="">Choose a service</option>
-        <option>Business Website</option>
-        <option>E-commerce Website</option>
-        <option>Portfolio Website</option>
-        <option>Landing Page</option>
-        <option>Other</option>
-      </select>
-
-      <label for="message">Project Details</label>
-      <textarea id="message" rows="4" placeholder="Tell us about your project..." required></textarea>
-
-      <button type="submit" class="primary-btn">Send Enquiry ↗</button>
-      <small class="form-note">Your email app will open with your enquiry details.</small>
-    </form>
+    <div class="service-card">
+      <h3>04</h3>
+      <h2>Website Redesign</h2>
+      <p>Transform your old website into a modern experience.</p>
+    </div>
   </div>
 </section>
 
-<footer class="footer">
-  <div class="brand">
-    <img src="assets/logo.png.jpeg" class="logo" alt="APEXNODE Logo">
-    <span>APEX<span class="red">NODE</span></span>
+<section class="section projects" id="work">
+  <p class="tag">03 / OUR PROJECTS</p>
+  <h2>Explore Our <span>Work.</span></h2>
+
+  <div class="project-grid">
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800" alt="Restaurant">
+      <h3>Restaurant Website</h3>
+      <p>Modern restaurant website concept.</p>
+      <a href="demos/restaurant/index.html">VIEW DEMO ↗</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800" alt="Shopping">
+      <h3>E-commerce Website</h3>
+      <p>Premium online shopping concept.</p>
+      <a href="demos/ecommerce/index.html">VIEW DEMO ↗</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800" alt="Real estate">
+      <h3>Real Estate Website</h3>
+      <p>Beautiful property showcase concept.</p>
+      <a href="demos/real-estate/index.html">VIEW DEMO ↗</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800" alt="Business">
+      <h3>Business Website</h3>
+      <p>Professional company website concept.</p>
+      <a href="demos/business/index.html">VIEW DEMO ↗</a>
+    </div>
+
   </div>
-  <p>Building digital experiences with purpose.</p>
-  <small>© <span id="year"></span> APEXNODE. All rights reserved.</small>
+</section>
+
+<section class="section contact" id="contact">
+  <p class="tag">04 / CONTACT US</p>
+  <h2>Let's Build Something <span>Amazing.</span></h2>
+  <p>Have a project in mind? Contact us today.</p>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+
+    <select id="service" required>
+      <option value="">Select a Service</option>
+      <option>Website Design</option>
+      <option>Web Development</option>
+      <option>E-commerce Website</option>
+      <option>Landing Page</option>
+      <option>Website Redesign</option>
+    </select>
+
+    <textarea id="message" placeholder="Tell us about your project" required></textarea>
+
+    <button type="submit">Send Enquiry ↗</button>
+  </form>
+
+  <div class="contact-details">
+    <p>Email: affreen.r.dev456@gmail.com</p>
+    <p>WhatsApp: +91 82487 17028</p>
+    <a href="https://wa.me/918248717028" target="_blank">Chat on WhatsApp ↗</a>
+  </div>
+</section>
+
+<footer>
+  <h2>APEX<span>NODE</span></h2>
+  <p>Building Digital Experiences That Matter.</p>
+  <p>© 2026 APEXNODE. All Rights Reserved.</p>
 </footer>
-
-</main>
-
-<!-- DEMO PAGE: SAME HTML FILE -->
-<main id="demoPage" hidden>
-  <div class="demo-topbar">
-    <button id="backButton" class="back-button">← Back to APEXNODE</button>
-    <span class="demo-brand">APEX<span class="red">NODE</span> <small>DEMO PREVIEW</small></span>
-    <a href="#contact" id="demoEnquiry" class="demo-contact">Build a Website ↗</a>
-  </div>
-
-  <div id="demoContent"></div>
-
-  <div class="demo-bottom">
-    <span>WEBSITE CONCEPT BY APEXNODE</span>
-    <button id="bottomBack">← Return Home</button>
-  </div>
-</main>
-
-<a class="whatsapp-float" href="https://wa.me/918248717028" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
 
 <script src="script.js"></script>
 </body>
